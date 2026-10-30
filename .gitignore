@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Temporary video outputs
+test_eval.mp4
+mario_eval.mp4
+*.mp4.tmp
+
+# Large intermediate model checkpoints (Keep only representative models)
+models/**/*.zip
+!models/mario_run_1/mario_ppo_1900000_steps.zip
+!models/mario_run_1/mario_ppo_500000_steps.zip
+!models/mario_finetune_2/mario_clear_final.zip
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

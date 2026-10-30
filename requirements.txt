@@ -1,0 +1,10 @@
+# Compatible versions for Super Mario Bros RL
+numpy==1.26.4
+gym==0.25.2
+gym-super-mario-bros==7.4.0
+nes-py>=8.2.1
+opencv-python==4.9.0.80
+gymnasium>=0.29.1
+stable-baselines3>=2.3.0
+tensorboard>=2.14.0
+moviepy>=1.0.3
